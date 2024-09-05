@@ -8,6 +8,7 @@ Extension >
 * Githistory
 * gitlens
 * Spell Check
+* live server
 
 
 
@@ -27,3 +28,48 @@ nodejs + express
 mongodb
 react
 python
+
+
+html
+> wrapper
+head
+> All the linking css/javascript
+body
+> All content that is visible to us
+
+indentation >writing code inside their parent tag
+
+/////
+inline
+>start in the same line
+>only take the width required as per content
+> span , a, img
+block
+> start from different line
+> take whole width
+> p
+
+
+ctrl a -> view -> word wrap
+hr > horizontal row
+br > not to use everywhere
+
+selfclosing tag > br hr
+
+Attribute
+> img - src
+> alt - alternate txt > give txt to all the images > quality of good coder
+> link - href
+
+broken image=> alt helps to showing text
+Tooltip => title="" => if we r moving cursor on image text will appear (it's optional)
+
+fav icon 
+>images appear with title > link tag used > inside head tag
+> jpg jpeg will work but correct extension is .ico
+
+
+semantic tag 
+> give structure to the code
+> eg - header and footer > eg of html 5 tag also
+
