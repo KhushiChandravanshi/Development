@@ -60,6 +60,9 @@ Attribute
 > img - src
 > alt - alternate txt > give txt to all the images > quality of good coder
 > link - href
+> anchor - href (hyper reference)
+> video - text (poster)
+> alt , poster > for text 
 
 broken image=> alt helps to showing text
 Tooltip => title="" => if we r moving cursor on image text will appear (it's optional)
@@ -72,4 +75,37 @@ fav icon
 semantic tag 
 > give structure to the code
 > eg - header and footer > eg of html 5 tag also
+
+a tag => anchor tag
+> adding link of two pages by clicking it open
+> a tag which have both the things content + attribute
+
+ul > unorder list
+li > listed item
+dl > descriptive list
+dt > data term
+dd > data description
+
+html5 > header , footer, dl tag , detail tag
+
+Dropdown > Select list > select + option 
+Detail tag > show hide > details + summary
+for gif > img tag used
+
+your name
+your image
+something about your
+your skills
+Hobbies
+Maps
+footer
+Social link
+
+
+iframe tag > used to load into other website to ur website
+
+html css > designing language 
+c c++ > programming language
+
+div tag > Division
 
