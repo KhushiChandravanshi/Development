@@ -1,0 +1,54 @@
+h2{
+    text-align: center;
+    color: black;
+}
+#main{
+    display: inline-block;
+}
+.card{
+    height: 450px; 
+    width: 20%;
+    background: palegreen;
+    float: left;
+    margin-left: 1%;
+    padding:2%;
+    overflow: scroll;
+}
+.card img{
+    height:200px;
+    width:100%
+}
+.plum{
+    background: plum;
+}
+#lightcoral{
+    background: lightcoral;
+}
+#powderblue{
+    background: powderblue;
+}
+#flatcard{
+    height: 300px;
+    width: 80%;
+    background-color: salmon;
+    margin-left: 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+#imgDiv{
+width: 25%;
+
+}
+#imgDiv img{
+    height: 100%;
+    width: 100%;
+
+}
+
+#TextDiv{
+    width: 65%;
+    margin: 3%;
+
+}

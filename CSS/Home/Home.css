@@ -1,0 +1,158 @@
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 60px;
+    background-color: white;
+    /* border: 1px solid red; */
+    color: black;
+}
+#brand{
+    float: left;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 1%;
+    /* font-family: cursive; */
+    font-weight:bold;
+    /* font-style: italic; */
+ 
+   
+}
+#social{
+    float: right;
+    margin-top: 5px;
+    margin-right: 1%;
+}
+.sociallogo{
+    height: 50px;
+}
+/*search css*/
+#search{
+    height: 450px;
+    /* border: 10px groove rgb(157, 189, 189); */
+    background-image: url('head.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 450px;
+
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 46%;
+    margin-top: 2%;
+    position: absolute;
+}
+#logo span{
+    margin-left: 15%;
+    margin-top: 20%;
+    position: absolute;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#heading{
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-top: 15%;
+    position: absolute;
+
+}
+.dropdown{
+    height: 60px;
+    width: 50%;
+    /* border: 2px solid white; */
+    margin-left: 28%;
+    margin-top: 22%;
+    position: absolute;
+
+}
+select{
+    height: 60px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+#restSelect{
+    width: 59%;
+}
+/*quicksearch css*/
+#quicksearch{
+    /* height: 600px; */
+    /* border: 10px double skyblue; */
+   width: 80%;
+   margin-left: 10%;
+   margin-top: 2%;
+}
+.quickHeading{
+    color: #3b2632;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin-left: 2%;
+}
+.quickSubHeading{
+    color: gray;
+    font-size: 20px;
+    line-height: 2;
+    margin-left: 2%;
+}
+.mainbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tileContainter{
+    height: 180px;
+    width: 30%;
+    border: 2px solid gray;
+    margin-left: 2%;
+    margin-top: 3%;
+    display: flex;
+    box-shadow: 10px 20px 10px gray;
+}
+.tileComponent1{
+ 
+    width: 52%;
+}
+.tileComponent1> img{
+    height: 100%;
+    width: 100%;
+}
+.tileComponent2{
+    margin-left: 5%;
+    width: 40%;
+}
+.compHeading{
+    margin-top: 35%;
+    font-size: 20px;
+    color: #3b2632; 
+    font-weight: bold;
+}
+.compHeading >a {
+    color: #3b2632; !important
+}
+/*footer css*/
+footer{
+    height: 60px;
+    /* background-color: plum;
+    border: 5px dotted lightgoldenrodyellow; */
+    text-align: center;
+    background-color: orchid;
+}
+.footText{
+    text-align: center;
+}
+.footDiv{
+    width: 32%;
+    display: inline-block;
+    border-right: 2px solid rgb(153, 23, 23);
+}
+ul{
+    list-style-type: none;
+}

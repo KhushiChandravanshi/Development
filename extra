@@ -108,4 +108,38 @@ html css > designing language
 c c++ > programming language
 
 div tag > Division
+TagName
+
+/////css
+TagName
+h1,p
+
+
+Class
+> to give similar property to multiple tags
+> .
+
+ID
+> to target something unique
+> #
+Id > class /// priority
+
+we can give more class to the tag but we can't give more id to the tag
+
+//////
+inline css
+StyleTag
+StyleSheet
+
+
+inline > styletag > stylesheet
+
+height > pixels
+width > percentage
+
+>flex box and float left are similar
+
+border style 4 >solid dotted groove double
+
+
 
