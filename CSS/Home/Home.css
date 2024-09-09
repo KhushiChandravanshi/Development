@@ -47,6 +47,15 @@ header{
     margin-left: 46%;
     margin-top: 2%;
     position: absolute;
+    animation: rotate 10s infinite;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    from{
+        transform: rotate(360deg);
+    }
 }
 #logo span{
     margin-left: 15%;
@@ -120,9 +129,36 @@ select{
     margin-top: 3%;
     display: flex;
     box-shadow: 10px 20px 10px gray;
+    animation: dance 10s;
+}
+@keyframes dance {
+    0%{
+        margin-left: 2%;
+        transform: rotate(-5deg);
+    }
+    25%{
+        margin-left: 20%;
+        transform: rotate(90deg);
+    }
+    
+    50%{
+        margin-left: 40%;
+        transform: rotate(180deg);
+    }
+    75%{
+        margin-left: 80%;
+        transform: rotate(0deg);
+    }
+    100%{
+        margin-left:40% ;
+        transform: rotate(360deg);
+    }
 }
 .tileContainter:hover{
-    transform: scale(1.5);
+      transform: scale(1.1); 
+    /* transform: scale(1.1); */ 
+    /* transform: skewX(30deg); */
+    /* transform: rotate(180deg); */
 }
 
 
