@@ -89,6 +89,7 @@ select{
    width: 80%;
    margin-left: 10%;
    margin-top: 2%;
+   background-color: #b6e154;
 }
 .quickHeading{
     color: #3b2632;
@@ -96,6 +97,10 @@ select{
     font-weight: bold;
     display: block;
     margin-left: 2%;
+}
+.quickHeading hover{
+    font-size:40px;
+    color:#3b2632;
 }
 .quickSubHeading{
     color: gray;
@@ -116,6 +121,11 @@ select{
     display: flex;
     box-shadow: 10px 20px 10px gray;
 }
+.tileContainter:hover{
+    transform: scale(1.5);
+}
+
+
 .tileComponent1{
  
     width: 52%;
@@ -139,20 +149,250 @@ select{
 }
 /*footer css*/
 footer{
-    height: 60px;
+    /* height: 60px; */
     /* background-color: plum;
     border: 5px dotted lightgoldenrodyellow; */
     text-align: center;
-    background-color: orchid;
+    background-color:black ;
+    color: white;
 }
 .footText{
     text-align: center;
+    background-color: white;
+    color:black;
+    font-size: 29px;
+    
+    
+    
 }
 .footDiv{
-    width: 32%;
+    width: 15%;
     display: inline-block;
-    border-right: 2px solid rgb(153, 23, 23);
+    /* border-right: 2px solid gainsboro; */
 }
 ul{
     list-style-type: none;
 }
+@media screen and (max-width:1400px){
+    body{
+        background-color: white;
+    }
+}
+@media screen and (max-width:1350px){
+    body{
+        background-color: rgb(196, 105, 21);
+    }
+}
+@media screen and (max-width:1300px){
+    body{
+        background-color: rgb(26, 163, 71);
+    }
+}
+@media screen and (max-width:1280px){
+    body{
+        background-color:rgb(77, 51, 3);
+    }
+}
+@media screen and (max-width:1250px){
+    body{
+        background-color: rgb(111, 88, 194);
+    }
+}
+@media screen and (max-width:1220px){
+    body{
+        background-color: rgb(180, 214, 27);
+    }
+}
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(155, 199, 228);
+    }
+}
+@media screen and (max-width:1180px){
+    body{
+        background-color: rgb(85, 46, 192);
+    }
+}
+@media screen and (max-width:1150px){
+    body{
+        background-color: rgb(37, 131, 134);
+    }
+}
+@media screen and (max-width:1120px){
+    body{
+        background-color: rgb(154, 216, 40);
+    }
+}
+@media screen and (max-width:1100px){
+    body{
+        background-color: rgb(56, 40, 4);
+    }
+}
+@media screen and (max-width:1380px){
+    body{
+        background-color: white;
+    }
+}
+@media screen and (max-width:1350px){
+    body{
+        background-color: palegreen;
+    }
+}
+@media screen and (max-width:1300px){
+    body{
+        background-color: rgb(149, 133, 236);
+    }
+}
+@media screen and (max-width:1280px){
+    body{
+        background-color: rgb(12, 145, 83);
+    }
+}
+@media screen and (max-width:1250px){
+    body{
+        background-color: rgb(48, 144, 173);
+    }
+}
+@media screen and (max-width:1220px){
+    body{
+        background-color: rgb(199, 170, 194);
+    }
+}
+@media screen and (max-width:1200px){
+    body{
+        background-color: lightgray;
+    }
+}
+@media screen and (max-width:1190px){
+    body{
+        background-color: rgb(82, 181, 194);
+    }
+}
+@media screen and (max-width:1150px){
+    body{
+        background-color: yellowgreen;
+    }
+}
+@media screen and (max-width:1120px){
+    body{
+        background-color: rgb(130, 216, 18);
+    }
+}
+@media screen and (max-width:1100px){
+    body{
+        background-color: lightcoral;
+    }
+   
+}
+@media screen and (max-width:1050px){
+    body{
+        background-color: lightblue;
+    }
+}
+@media screen and (max-width:1030px){
+    body{
+        background-color: rgb(147, 201, 198);
+    }
+    .tileContainter{
+        width: 45%;
+    }
+}
+@media screen and (max-width:1010px){
+    body{
+        background-color: rgb(60, 177, 85);
+    }
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(185, 122, 122);
+    }
+}
+@media screen and (max-width:950px){
+    body{
+        background-color: yellowgreen;
+    }
+}
+@media screen and (max-width:920px){
+    body{
+        background-color: papayawhip;
+    }
+}
+@media screen and (max-width:900px){
+    body{
+        background-color: palevioletred;
+    }
+}
+@media screen and (max-width:850px){
+    body{
+        background-color: violet;
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: gray;
+    }
+}
+@media screen and (max-width:750px){
+    body{
+        background-color: black;
+    }
+}
+@media screen and (max-width:700px){
+    body{
+        background-color: lightsalmon;
+    }
+}
+@media screen and (max-width:660px){
+    body{
+        background-color: rgb(165, 91, 62);
+    }
+}
+@media screen and (max-width:620px){
+    body{
+        background-color: rgb(11, 170, 82);
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(96, 179, 100);
+    }
+}
+@media screen and (max-width:550px){
+    body{
+        background-color: skyblue;
+    }
+    .tileContainter{
+        width: 90%;
+    }
+    #heading{
+        font-size: 47;
+        margin-left: 0%;
+        margin-top: 40%;
+    }
+    .dropdown{
+        margin-left: 0%;
+        margin-top: 55%;
+        width: 200%;
+    }
+    select{
+        font-size: 15px;
+    }
+    #logo{
+        margin-left: 27%;
+    }
+}
+@media screen and (max-width:520px){
+    body{
+        background-color: rgb(196, 60, 10);
+    }
+}
+@media screen and (max-width:500px){
+    body{
+        background-color: olive;
+    }
+}
+
+
+
+
+
