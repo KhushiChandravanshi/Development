@@ -49,13 +49,29 @@ header{
     position: absolute;
     animation: rotate 10s infinite;
 }
+
 @keyframes rotate {
-    from{
-        transform: rotate(0deg);
-    }
-    from{
-        transform: rotate(360deg);
-    }
+        0%{
+            margin-left: 2%;
+            transform: rotate(-5deg);
+        }
+        25%{
+            margin-left: 20%;
+            transform: rotate(90deg);
+        }
+        
+        50%{
+            margin-left: 40%;
+            transform: rotate(180deg);
+        }
+        75%{
+            margin-left: 80%;
+            transform: rotate(0deg);
+        }
+        100%{
+            margin-left:40% ;
+            transform: rotate(360deg);
+        }
 }
 #logo span{
     margin-left: 15%;
